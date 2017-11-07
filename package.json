@@ -13,6 +13,7 @@
   "author" : "Bloc Inc",
   "license" : "ISC",
   "dependencies": {
+    "firebase": "^3.6.9",
     "hapi" : "~16.4.0",
     "path" : "^0.4.9",
     "inert" : "^4.2.0"

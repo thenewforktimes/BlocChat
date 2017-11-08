@@ -1,1 +1,5 @@
-<h1 ng-controller="HomeCtrl as home">Welcome to BlocChat</h1>
+<h1>Welcome to BlocChat</h1>
+  <div ng-repeat="room in home.rooms">
+     <h3>{{ room.$id }}</h3>
+     <p>{{ room.$value }}</p>
+  </div>
